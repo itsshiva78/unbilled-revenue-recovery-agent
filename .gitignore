@@ -1,5 +1,16 @@
 # Environment and Secrets
 .env
+.env.local
+
+# Submission Reports & PDFs (Hidden from public repo)
+ASSIGNMENT_REPORT.md
+SUBMISSION_ARTICLE.md
+assets/ASSIGNMENT_REPORT.md
+assets/SUBMISSION_ARTICLE.md
+*.pdf
+assets/*.pdf
+*.html
+outputs/
 
 # Internal subagent artifacts & scratch dumps
 .agents/
