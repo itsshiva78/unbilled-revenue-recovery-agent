@@ -1,0 +1,306 @@
+[
+  {
+    "event_id": "CAL-APX-REG-01",
+    "title": "Apex Health: Weekly Architecture & Sprint Sync",
+    "start_time": "2026-08-10T10:00:00",
+    "end_time": "2026-08-10T11:00:00",
+    "duration_hours": 1.0,
+    "organizer": "sarah.chen@meridiandigital.io",
+    "attendees": [
+      "sarah.chen@meridiandigital.io",
+      "aris.thorne@apexhealth.io",
+      "zoe.martinez@meridiandigital.io"
+    ],
+    "description": "Weekly status review for core HIPAA portal patient intake sprint deliverables.",
+    "meeting_link": "https://meet.google.com/apx-arch-sync",
+    "is_recurring": true,
+    "location": "Google Meet",
+    "client_id": "CLI-001",
+    "team_member_id": "EMP-001"
+  },
+  {
+    "event_id": "CAL-FIN-REG-01",
+    "title": "FinScale: FIX Gateway Standup & Status",
+    "start_time": "2026-08-11T09:30:00",
+    "end_time": "2026-08-11T10:00:00",
+    "duration_hours": 0.5,
+    "organizer": "marcus.brody@meridiandigital.io",
+    "attendees": [
+      "marcus.brody@meridiandigital.io",
+      "kvance@finscale.capital"
+    ],
+    "description": "Morning standup reviewing FIX 4.4 packet parser throughput benchmarks.",
+    "meeting_link": "https://meet.google.com/fin-standup",
+    "is_recurring": true,
+    "location": "Google Meet",
+    "client_id": "CLI-002",
+    "team_member_id": "EMP-002"
+  },
+  {
+    "event_id": "CAL-RET-REG-01",
+    "title": "RetailPulse: Weekly Inventory Progress",
+    "start_time": "2026-08-12T14:00:00",
+    "end_time": "2026-08-12T15:00:00",
+    "duration_hours": 1.0,
+    "organizer": "elena.rostova@meridiandigital.io",
+    "attendees": [
+      "elena.rostova@meridiandigital.io",
+      "rsterling@retailpulse.com"
+    ],
+    "description": "Reviewing checkout UX flows and omnichannel catalog sync states.",
+    "meeting_link": "https://meet.google.com/ret-catalog",
+    "is_recurring": true,
+    "location": "Google Meet",
+    "client_id": "CLI-003",
+    "team_member_id": "EMP-003"
+  },
+  {
+    "event_id": "CAL-OMN-REG-01",
+    "title": "OmniFlow: Bi-Weekly Architecture Touchpoint",
+    "start_time": "2026-08-13T11:00:00",
+    "end_time": "2026-08-13T12:00:00",
+    "duration_hours": 1.0,
+    "organizer": "priya.sharma@meridiandigital.io",
+    "attendees": [
+      "priya.sharma@meridiandigital.io",
+      "bcooper@omniflow.net",
+      "alex.torres@meridiandigital.io"
+    ],
+    "description": "Reviewing standard CRM connector milestones and event schema mapping.",
+    "meeting_link": "https://meet.google.com/omn-touchpoint",
+    "is_recurring": true,
+    "location": "Google Meet",
+    "client_id": "CLI-004",
+    "team_member_id": "EMP-005"
+  },
+  {
+    "event_id": "CAL-INT-001",
+    "title": "Meridian Bi-Weekly Sprint Retrospective & All-Hands",
+    "start_time": "2026-08-14T15:00:00",
+    "end_time": "2026-08-14T16:30:00",
+    "duration_hours": 1.5,
+    "organizer": "zoe.martinez@meridiandigital.io",
+    "attendees": [
+      "sarah.chen@meridiandigital.io",
+      "marcus.brody@meridiandigital.io",
+      "elena.rostova@meridiandigital.io",
+      "david.kalu@meridiandigital.io",
+      "priya.sharma@meridiandigital.io",
+      "alex.torres@meridiandigital.io",
+      "chloe.dubois@meridiandigital.io",
+      "liam.vance@meridiandigital.io",
+      "tariq.almansoor@meridiandigital.io",
+      "zoe.martinez@meridiandigital.io",
+      "jason.park@meridiandigital.io",
+      "maya.lin@meridiandigital.io"
+    ],
+    "description": "Internal engineering all-hands sprint retrospective. Discussing agency internal tooling and Q3 culture goals.",
+    "meeting_link": "https://meet.google.com/meridian-retro",
+    "is_recurring": true,
+    "location": "Google Meet (Internal)",
+    "client_id": null,
+    "team_member_id": "EMP-010"
+  },
+  {
+    "event_id": "CAL-APX-001",
+    "title": "Apex Urgent: CVE-2026-4412 HIPAA remediation",
+    "start_time": "2026-08-14T20:00:00",
+    "end_time": "2026-08-14T23:30:00",
+    "duration_hours": 3.5,
+    "organizer": "aris.thorne@apexhealth.io",
+    "attendees": [
+      "tariq.almansoor@meridiandigital.io",
+      "aris.thorne@apexhealth.io",
+      "secops@apexhealth.io"
+    ],
+    "description": "Emergency triage call requested by Apex CTO to mitigate CVE-2026-4412 database audit log encryption exposure under HIPAA compliance mandate.",
+    "meeting_link": "https://meet.google.com/apx-sec-emergency",
+    "is_recurring": false,
+    "location": "Google Meet (Emergency War Room)",
+    "client_id": "CLI-001",
+    "team_member_id": "EMP-009"
+  },
+  {
+    "event_id": "CAL-PER-001",
+    "title": "Dentist / Personal errand - OOO",
+    "start_time": "2026-08-17T13:00:00",
+    "end_time": "2026-08-17T15:00:00",
+    "duration_hours": 2.0,
+    "organizer": "marcus.brody@meridiandigital.io",
+    "attendees": [
+      "marcus.brody@meridiandigital.io"
+    ],
+    "description": "Personal appointment - out of office for routine dental cleaning and personal errand.",
+    "meeting_link": null,
+    "is_recurring": false,
+    "location": "Midtown Dental",
+    "client_id": null,
+    "team_member_id": "EMP-002"
+  },
+  {
+    "event_id": "CAL-CLD-REG-01",
+    "title": "CloudShift: Weekly Kubernetes Review",
+    "start_time": "2026-08-17T10:00:00",
+    "end_time": "2026-08-17T11:00:00",
+    "duration_hours": 1.0,
+    "organizer": "david.kalu@meridiandigital.io",
+    "attendees": [
+      "david.kalu@meridiandigital.io",
+      "nklein@cloudshift.tech"
+    ],
+    "description": "Reviewing Terraform module updates for production EKS cluster migration.",
+    "meeting_link": "https://meet.google.com/cld-review",
+    "is_recurring": true,
+    "location": "Google Meet",
+    "client_id": "CLI-005",
+    "team_member_id": "EMP-004"
+  },
+  {
+    "event_id": "CAL-FIN-REG-02",
+    "title": "FinScale: Frontend Order Book Planning",
+    "start_time": "2026-08-18T14:00:00",
+    "end_time": "2026-08-18T15:00:00",
+    "duration_hours": 1.0,
+    "organizer": "chloe.dubois@meridiandigital.io",
+    "attendees": [
+      "chloe.dubois@meridiandigital.io",
+      "kvance@finscale.capital"
+    ],
+    "description": "Sprint planning for WebSocket order book rendering components.",
+    "meeting_link": "https://meet.google.com/fin-fe-plan",
+    "is_recurring": true,
+    "location": "Google Meet",
+    "client_id": "CLI-002",
+    "team_member_id": "EMP-007"
+  },
+  {
+    "event_id": "CAL-BIO-001",
+    "title": "BioGen AI Discovery & Capabilities Overview",
+    "start_time": "2026-08-19T11:00:00",
+    "end_time": "2026-08-19T12:30:00",
+    "duration_hours": 1.5,
+    "organizer": "alex.torres@meridiandigital.io",
+    "attendees": [
+      "sarah.chen@meridiandigital.io",
+      "alex.torres@meridiandigital.io",
+      "r.vance@biogen-health.com"
+    ],
+    "description": "Prospective client discovery call with BioGen VP of Research. Exploring potential AI pipeline partnership. Pre-sales capabilities presentation.",
+    "meeting_link": "https://meet.google.com/biogen-pitch",
+    "is_recurring": false,
+    "location": "Google Meet (Pre-Sales)",
+    "client_id": null,
+    "team_member_id": "EMP-006"
+  },
+  {
+    "event_id": "CAL-RET-001",
+    "title": "RetailPulse Q4 Omnichannel Architecture & Event-Driven Redesign",
+    "start_time": "2026-08-21T14:00:00",
+    "end_time": "2026-08-21T16:00:00",
+    "duration_hours": 2.0,
+    "organizer": "rsterling@retailpulse.com",
+    "attendees": [
+      "sarah.chen@meridiandigital.io",
+      "alex.torres@meridiandigital.io",
+      "rsterling@retailpulse.com",
+      "vpecommerce@retailpulse.com"
+    ],
+    "description": "Executive architecture advisory workshop. Delivered full event-driven target state roadmap and cloud migration strategy for Q4 holiday peak.",
+    "meeting_link": "https://meet.google.com/ret-q4-arch",
+    "is_recurring": false,
+    "location": "Google Meet (Executive Advisory)",
+    "client_id": "CLI-003",
+    "team_member_id": "EMP-001"
+  },
+  {
+    "event_id": "CAL-APX-REG-02",
+    "title": "Apex Health: Telemedicine Patient Queue Review",
+    "start_time": "2026-08-24T14:00:00",
+    "end_time": "2026-08-24T15:00:00",
+    "duration_hours": 1.0,
+    "organizer": "sarah.chen@meridiandigital.io",
+    "attendees": [
+      "sarah.chen@meridiandigital.io",
+      "aris.thorne@apexhealth.io"
+    ],
+    "description": "Sprint review of real-time patient queue signaling and FHIR data contracts.",
+    "meeting_link": "https://meet.google.com/apx-telemed",
+    "is_recurring": true,
+    "location": "Google Meet",
+    "client_id": "CLI-001",
+    "team_member_id": "EMP-001"
+  },
+  {
+    "event_id": "CAL-OMN-REG-02",
+    "title": "OmniFlow: CRM Lead Processing Demo",
+    "start_time": "2026-08-25T15:00:00",
+    "end_time": "2026-08-25T16:00:00",
+    "duration_hours": 1.0,
+    "organizer": "alex.torres@meridiandigital.io",
+    "attendees": [
+      "alex.torres@meridiandigital.io",
+      "bcooper@omniflow.net"
+    ],
+    "description": "Bi-weekly sprint demo of lead transformation DAGs and error dead-letter queue.",
+    "meeting_link": "https://meet.google.com/omn-demo",
+    "is_recurring": true,
+    "location": "Google Meet",
+    "client_id": "CLI-004",
+    "team_member_id": "EMP-006"
+  },
+  {
+    "event_id": "CAL-RET-REG-02",
+    "title": "RetailPulse: Design System Review",
+    "start_time": "2026-08-27T10:00:00",
+    "end_time": "2026-08-27T11:00:00",
+    "duration_hours": 1.0,
+    "organizer": "elena.rostova@meridiandigital.io",
+    "attendees": [
+      "elena.rostova@meridiandigital.io",
+      "rsterling@retailpulse.com"
+    ],
+    "description": "Walkthrough of high-fidelity Figma components for mobile checkout redesign.",
+    "meeting_link": "https://meet.google.com/ret-design",
+    "is_recurring": true,
+    "location": "Google Meet",
+    "client_id": "CLI-003",
+    "team_member_id": "EMP-003"
+  },
+  {
+    "event_id": "CAL-FIN-REG-03",
+    "title": "FinScale: FIX Gateway Demo & Handover",
+    "start_time": "2026-08-28T11:00:00",
+    "end_time": "2026-08-28T12:00:00",
+    "duration_hours": 1.0,
+    "organizer": "marcus.brody@meridiandigital.io",
+    "attendees": [
+      "marcus.brody@meridiandigital.io",
+      "kvance@finscale.capital"
+    ],
+    "description": "Staging environment demonstration of FIX protocol session management.",
+    "meeting_link": "https://meet.google.com/fin-demo",
+    "is_recurring": false,
+    "location": "Google Meet",
+    "client_id": "CLI-002",
+    "team_member_id": "EMP-002"
+  },
+  {
+    "event_id": "CAL-CLD-001",
+    "title": "CloudShift Multi-Region Disaster Recovery Simulation",
+    "start_time": "2026-08-29T09:00:00",
+    "end_time": "2026-08-29T11:30:00",
+    "duration_hours": 2.5,
+    "organizer": "nklein@cloudshift.tech",
+    "attendees": [
+      "david.kalu@meridiandigital.io",
+      "nklein@cloudshift.tech",
+      "devops-oncall@cloudshift.tech"
+    ],
+    "description": "Scheduled off-hours DR drill per SOW §6.3. Simulated total US-East-1 AWS outage, executed Kubernetes multi-region failover runbook to US-West-2, validated zero packet drop.",
+    "meeting_link": "https://meet.google.com/cld-dr-simulation",
+    "is_recurring": false,
+    "location": "Google Meet (Production Ops Room)",
+    "client_id": "CLI-005",
+    "team_member_id": "EMP-004"
+  }
+]

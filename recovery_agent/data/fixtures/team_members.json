@@ -1,0 +1,225 @@
+[
+  {
+    "member_id": "EMP-001",
+    "full_name": "Sarah Chen",
+    "primary_role": "Principal Solutions Architect",
+    "email": "sarah.chen@meridiandigital.io",
+    "billable_rate": 250.0,
+    "active_client_assignments": [
+      "RetailPulse",
+      "Apex Health"
+    ],
+    "skills": [
+      "Enterprise Architecture",
+      "Event-Driven Systems",
+      "Cloud Strategy",
+      "Executive Alignment"
+    ],
+    "is_active": true
+  },
+  {
+    "member_id": "EMP-002",
+    "full_name": "Marcus Brody",
+    "primary_role": "Senior Fullstack Engineer",
+    "email": "marcus.brody@meridiandigital.io",
+    "billable_rate": 200.0,
+    "active_client_assignments": [
+      "FinScale",
+      "OmniFlow"
+    ],
+    "skills": [
+      "FIX Protocol",
+      "TypeScript",
+      "Node.js",
+      "Low-Latency Gateways",
+      "PostgreSQL"
+    ],
+    "is_active": true
+  },
+  {
+    "member_id": "EMP-003",
+    "full_name": "Elena Rostova",
+    "primary_role": "Lead Product Designer",
+    "email": "elena.rostova@meridiandigital.io",
+    "billable_rate": 185.0,
+    "active_client_assignments": [
+      "RetailPulse",
+      "FinScale"
+    ],
+    "skills": [
+      "Design Systems",
+      "Figma",
+      "User Research",
+      "E-commerce Checkout UX"
+    ],
+    "is_active": true
+  },
+  {
+    "member_id": "EMP-004",
+    "full_name": "David Kalu",
+    "primary_role": "Senior DevOps Lead",
+    "email": "david.kalu@meridiandigital.io",
+    "billable_rate": 225.0,
+    "active_client_assignments": [
+      "CloudShift",
+      "Apex Health"
+    ],
+    "skills": [
+      "Kubernetes",
+      "Terraform",
+      "Disaster Recovery",
+      "AWS/GCP Multi-Cloud",
+      "CI/CD Pipelines"
+    ],
+    "is_active": true
+  },
+  {
+    "member_id": "EMP-005",
+    "full_name": "Priya Sharma",
+    "primary_role": "Senior Backend Engineer",
+    "email": "priya.sharma@meridiandigital.io",
+    "billable_rate": 200.0,
+    "active_client_assignments": [
+      "OmniFlow",
+      "RetailPulse"
+    ],
+    "skills": [
+      "Python",
+      "FastAPI",
+      "Salesforce Webhooks",
+      "Message Queues",
+      "Microservices"
+    ],
+    "is_active": true
+  },
+  {
+    "member_id": "EMP-006",
+    "full_name": "Alex Torres",
+    "primary_role": "Technical Account Manager",
+    "email": "alex.torres@meridiandigital.io",
+    "billable_rate": 175.0,
+    "active_client_assignments": [
+      "RetailPulse",
+      "OmniFlow"
+    ],
+    "skills": [
+      "Client Management",
+      "Technical Roadmapping",
+      "SOW Governance",
+      "Scrum"
+    ],
+    "is_active": true
+  },
+  {
+    "member_id": "EMP-007",
+    "full_name": "Chloe Dubois",
+    "primary_role": "Frontend Engineer",
+    "email": "chloe.dubois@meridiandigital.io",
+    "billable_rate": 165.0,
+    "active_client_assignments": [
+      "FinScale",
+      "Apex Health"
+    ],
+    "skills": [
+      "React",
+      "Next.js",
+      "TailwindCSS",
+      "WebSockets",
+      "Financial Data Viz"
+    ],
+    "is_active": true
+  },
+  {
+    "member_id": "EMP-008",
+    "full_name": "Liam Vance",
+    "primary_role": "QA Automation Engineer",
+    "email": "liam.vance@meridiandigital.io",
+    "billable_rate": 150.0,
+    "active_client_assignments": [
+      "OmniFlow",
+      "CloudShift"
+    ],
+    "skills": [
+      "Playwright",
+      "Pytest",
+      "Load Testing",
+      "API Test Automation"
+    ],
+    "is_active": true
+  },
+  {
+    "member_id": "EMP-009",
+    "full_name": "Tariq Al-Mansoor",
+    "primary_role": "Cloud Security Specialist",
+    "email": "tariq.almansoor@meridiandigital.io",
+    "billable_rate": 240.0,
+    "active_client_assignments": [
+      "Apex Health",
+      "CloudShift"
+    ],
+    "skills": [
+      "HIPAA Compliance",
+      "Cloud Security Auditing",
+      "Incident Remediation",
+      "Zero Trust"
+    ],
+    "is_active": true
+  },
+  {
+    "member_id": "EMP-010",
+    "full_name": "Zoe Martinez",
+    "primary_role": "Agile Project Manager",
+    "email": "zoe.martinez@meridiandigital.io",
+    "billable_rate": 160.0,
+    "active_client_assignments": [
+      "Apex Health",
+      "FinScale",
+      "RetailPulse",
+      "OmniFlow",
+      "CloudShift"
+    ],
+    "skills": [
+      "Agile Delivery",
+      "Jira Management",
+      "Budget Tracking",
+      "Sprint Ceremonies"
+    ],
+    "is_active": true
+  },
+  {
+    "member_id": "EMP-011",
+    "full_name": "Jason Park",
+    "primary_role": "Mobile Engineer",
+    "email": "jason.park@meridiandigital.io",
+    "billable_rate": 190.0,
+    "active_client_assignments": [
+      "RetailPulse"
+    ],
+    "skills": [
+      "React Native",
+      "Swift",
+      "Kotlin",
+      "Offline Sync",
+      "Mobile Payments"
+    ],
+    "is_active": true
+  },
+  {
+    "member_id": "EMP-012",
+    "full_name": "Maya Lin",
+    "primary_role": "AI / Data Engineer",
+    "email": "maya.lin@meridiandigital.io",
+    "billable_rate": 210.0,
+    "active_client_assignments": [
+      "FinScale",
+      "Apex Health"
+    ],
+    "skills": [
+      "LLM Pipelines",
+      "Vector Databases",
+      "Python Data Engineering",
+      "Kafka"
+    ],
+    "is_active": true
+  }
+]

@@ -1,0 +1,19 @@
+# Environment and Secrets
+.env
+
+# Internal subagent artifacts & scratch dumps
+.agents/
+scratch_page.json
+proposal_engine/
+
+# Python byte code
+__pycache__/
+*.py[cod]
+*.class
+*.pytest_cache/
+
+# OS and Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

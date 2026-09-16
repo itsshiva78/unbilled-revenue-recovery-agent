@@ -1,0 +1,200 @@
+[
+  {
+    "task_id": "APX-101",
+    "project_key": "APX",
+    "title": "Develop FHIR patient intake REST endpoints",
+    "description": "Implement HIPAA compliant patient registration and insurance verification endpoints conforming to HL7 FHIR standard.",
+    "assignee_id": "EMP-001",
+    "assignee_email": "sarah.chen@meridiandigital.io",
+    "status": "Completed",
+    "logged_date": "2026-08-10",
+    "completed_at": "2026-08-10T17:00:00",
+    "estimated_hours": 6.0,
+    "actual_hours": 6.0,
+    "client_id": "CLI-001",
+    "tags": [
+      "portal",
+      "FHIR",
+      "HIPAA",
+      "REST"
+    ]
+  },
+  {
+    "task_id": "FIN-105",
+    "project_key": "FIN",
+    "title": "Build FIX session reconnection logic",
+    "description": "Implement heartbeat check and automatic TCP sequence resynchronization for FIX 4.4 trading gateway.",
+    "assignee_id": "EMP-002",
+    "assignee_email": "marcus.brody@meridiandigital.io",
+    "status": "Completed",
+    "logged_date": "2026-08-12",
+    "completed_at": "2026-08-12T16:30:00",
+    "estimated_hours": 4.0,
+    "actual_hours": 4.0,
+    "client_id": "CLI-002",
+    "tags": [
+      "FIX",
+      "session",
+      "gateway"
+    ]
+  },
+  {
+    "task_id": "RET-112",
+    "project_key": "RET",
+    "title": "Implement inventory webhook batch queue",
+    "description": "Build high-throughput Redis batch queue to debounce stock update webhooks from enterprise OMS.",
+    "assignee_id": "EMP-005",
+    "assignee_email": "priya.sharma@meridiandigital.io",
+    "status": "Completed",
+    "logged_date": "2026-08-13",
+    "completed_at": "2026-08-13T17:30:00",
+    "estimated_hours": 5.0,
+    "actual_hours": 5.0,
+    "client_id": "CLI-003",
+    "tags": [
+      "inventory",
+      "queue",
+      "batching"
+    ]
+  },
+  {
+    "task_id": "FIN-142",
+    "project_key": "FIN",
+    "title": "Spike: Low-latency FIX 4.4 packet framing",
+    "description": "Ad-hoc protocol spike to benchmark zero-copy byte buffer framing for high-frequency FIX 4.4 order execution. Requested by client VP outside sprint commitments.",
+    "assignee_id": "EMP-002",
+    "assignee_email": "marcus.brody@meridiandigital.io",
+    "status": "Completed",
+    "logged_date": "2026-08-18",
+    "completed_at": "2026-08-18T15:00:00",
+    "estimated_hours": 4.0,
+    "actual_hours": 5.0,
+    "client_id": "CLI-002",
+    "tags": [
+      "spike",
+      "protocol",
+      "FIX-4.4",
+      "low-latency",
+      "benchmarking"
+    ]
+  },
+  {
+    "task_id": "OMN-045",
+    "project_key": "OMN",
+    "title": "Configure Apache Airflow DAG for CRM leads",
+    "description": "Setup scheduled nightly DAG to aggregate CRM lead scoring data into PostgreSQL warehouse.",
+    "assignee_id": "EMP-005",
+    "assignee_email": "priya.sharma@meridiandigital.io",
+    "status": "Completed",
+    "logged_date": "2026-08-19",
+    "completed_at": "2026-08-19T17:00:00",
+    "estimated_hours": 4.0,
+    "actual_hours": 4.0,
+    "client_id": "CLI-004",
+    "tags": [
+      "Airflow",
+      "DAG",
+      "CRM",
+      "ETL"
+    ]
+  },
+  {
+    "task_id": "CLD-052",
+    "project_key": "CLD",
+    "title": "Terraform module for EKS node groups",
+    "description": "Create reusable Terraform modules with autoscaling node groups and security group baseline.",
+    "assignee_id": "EMP-004",
+    "assignee_email": "david.kalu@meridiandigital.io",
+    "status": "Completed",
+    "logged_date": "2026-08-20",
+    "completed_at": "2026-08-20T17:30:00",
+    "estimated_hours": 6.0,
+    "actual_hours": 6.0,
+    "client_id": "CLI-005",
+    "tags": [
+      "Terraform",
+      "EKS",
+      "AWS",
+      "Kubernetes"
+    ]
+  },
+  {
+    "task_id": "OMNI-89",
+    "project_key": "OMN",
+    "title": "Implement custom webhook endpoint for Salesforce lead ingestion",
+    "description": "Scope-creep request: build bespoke webhook receiver and CRM payload transformer to map incoming lead fields. SOW §5.1 billable.",
+    "assignee_id": "EMP-005",
+    "assignee_email": "priya.sharma@meridiandigital.io",
+    "status": "Completed",
+    "logged_date": "2026-08-24",
+    "completed_at": "2026-08-24T13:00:00",
+    "estimated_hours": 4.0,
+    "actual_hours": 4.0,
+    "client_id": "CLI-004",
+    "tags": [
+      "webhook",
+      "Salesforce",
+      "CRM",
+      "custom-integration",
+      "scope-creep"
+    ]
+  },
+  {
+    "task_id": "RET-204",
+    "project_key": "RET",
+    "title": "Fix checkout state machine glitch under warranty",
+    "description": "Resolve shopping cart race condition in checkout state machine delivered 12 days ago. Expressly non-billable per SOW §8.1 30-day bug warranty.",
+    "assignee_id": "EMP-005",
+    "assignee_email": "priya.sharma@meridiandigital.io",
+    "status": "Completed",
+    "logged_date": "2026-08-25",
+    "completed_at": "2026-08-25T12:30:00",
+    "estimated_hours": 2.0,
+    "actual_hours": 2.5,
+    "client_id": "CLI-003",
+    "tags": [
+      "warranty",
+      "defect-remediation",
+      "bug-fix"
+    ]
+  },
+  {
+    "task_id": "FIN-120",
+    "project_key": "FIN",
+    "title": "Implement WebSocket order book client component",
+    "description": "Develop high-throughput React virtualized list component for live depth-of-market quotes.",
+    "assignee_id": "EMP-007",
+    "assignee_email": "chloe.dubois@meridiandigital.io",
+    "status": "Completed",
+    "logged_date": "2026-08-26",
+    "completed_at": "2026-08-26T16:00:00",
+    "estimated_hours": 5.0,
+    "actual_hours": 5.0,
+    "client_id": "CLI-002",
+    "tags": [
+      "React",
+      "WebSocket",
+      "orderbook"
+    ]
+  },
+  {
+    "task_id": "CLD-88",
+    "project_key": "CLD",
+    "title": "Execute Kubernetes Multi-Region Failover Runbook",
+    "description": "Scheduled weekend DR drill per SOW §6.3. Execute multi-region state migration and DNS failover tests.",
+    "assignee_id": "EMP-004",
+    "assignee_email": "david.kalu@meridiandigital.io",
+    "status": "Completed",
+    "logged_date": "2026-08-29",
+    "completed_at": "2026-08-29T11:30:00",
+    "estimated_hours": 2.5,
+    "actual_hours": 2.5,
+    "client_id": "CLI-005",
+    "tags": [
+      "disaster-recovery",
+      "weekend-drill",
+      "Kubernetes",
+      "failover"
+    ]
+  }
+]

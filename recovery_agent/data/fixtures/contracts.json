@@ -1,0 +1,377 @@
+[
+  {
+    "contract_id": "CTR-APX-2026",
+    "client_id": "CLI-001",
+    "client_name": "Apex Health",
+    "billing_model": "TIME_AND_MATERIALS",
+    "start_date": "2026-01-01",
+    "end_date": "2026-12-31",
+    "is_active": true,
+    "default_hourly_rate": 200.0,
+    "minimum_increment_minutes": 30,
+    "specialist_rates": {
+      "Cloud Security Specialist": 240.0,
+      "Principal Solutions Architect": 250.0,
+      "Senior DevOps Lead": 225.0
+    },
+    "retainer_monthly_hours": null,
+    "retainer_monthly_fee": null,
+    "inclusions_summary": "Core HIPAA portal development, infrastructure security audits, out-of-hours compliance patching",
+    "exclusions_summary": "Routine maintenance covered under base infrastructure retainer",
+    "clauses": [
+      {
+        "clause_id": "§1.1",
+        "title": "Core Scoped Portal Deliverables",
+        "text": "Development and engineering of the core HIPAA patient management portal, telemedicine integrations, and FHIR API endpoints shall be billed on a Time & Materials basis at the standard engineering rate ($200/hr).",
+        "is_billable": true,
+        "rate_override": 200.0,
+        "rate_multiplier": 1.0,
+        "keywords": [
+          "portal",
+          "telemedicine",
+          "FHIR",
+          "API",
+          "intake"
+        ],
+        "applies_to_roles": [
+          "Senior Fullstack Engineer",
+          "Frontend Engineer",
+          "Senior Backend Engineer"
+        ]
+      },
+      {
+        "clause_id": "§4.2",
+        "title": "Out-of-Hours Security Remediation & HIPAA Compliance",
+        "text": "Out-of-hours security remediation, vulnerability mitigation, and urgent HIPAA compliance patching requested by Client shall be billable at standard specialist T&M rate ($240/hr).",
+        "is_billable": true,
+        "rate_override": 240.0,
+        "rate_multiplier": 1.0,
+        "keywords": [
+          "HIPAA",
+          "security",
+          "vulnerability",
+          "CVE",
+          "audit log",
+          "remediation",
+          "urgent",
+          "patching",
+          "encryption"
+        ],
+        "applies_to_roles": [
+          "Cloud Security Specialist",
+          "Senior DevOps Lead"
+        ]
+      },
+      {
+        "clause_id": "§8.2",
+        "title": "Base Maintenance Retainer Exclusion",
+        "text": "Routine monthly operational server patching during scheduled business hours is included within base infrastructure retainer and is not billable as ad-hoc T&M.",
+        "is_billable": false,
+        "rate_override": null,
+        "rate_multiplier": 0.0,
+        "keywords": [
+          "routine maintenance",
+          "base retainer",
+          "monthly patch"
+        ],
+        "applies_to_roles": []
+      }
+    ]
+  },
+  {
+    "contract_id": "CTR-FIN-2026",
+    "client_id": "CLI-002",
+    "client_name": "FinScale",
+    "billing_model": "TIME_AND_MATERIALS",
+    "start_date": "2026-02-15",
+    "end_date": "2027-02-14",
+    "is_active": true,
+    "default_hourly_rate": 200.0,
+    "minimum_increment_minutes": 15,
+    "specialist_rates": {
+      "Senior Fullstack Engineer": 200.0,
+      "AI / Data Engineer": 210.0,
+      "Lead Product Designer": 185.0
+    },
+    "retainer_monthly_hours": null,
+    "retainer_monthly_fee": null,
+    "inclusions_summary": "FIX 4.4 protocol gateways, low-latency market data framing, exchange connectivity spikes",
+    "exclusions_summary": "Unapproved exploratory prototyping or speculative research without VP sign-off",
+    "clauses": [
+      {
+        "clause_id": "§1.2",
+        "title": "Core FIX 4.4 Engine Implementation",
+        "text": "Architecture, coding, and integration of FIX 4.4 trading gateway order routing engine billed at standard developer hourly rate ($200/hr).",
+        "is_billable": true,
+        "rate_override": 200.0,
+        "rate_multiplier": 1.0,
+        "keywords": [
+          "FIX",
+          "order routing",
+          "trading gateway",
+          "engine"
+        ],
+        "applies_to_roles": [
+          "Senior Fullstack Engineer"
+        ]
+      },
+      {
+        "clause_id": "§3.4",
+        "title": "Ad-hoc Protocol Spikes & Benchmarking",
+        "text": "Ad-hoc interface spikes, non-standard protocol benchmarking, and experimental technical evaluations requested outside sprint commitments shall be billed on a Time & Materials basis at the engineer's standard hourly rate ($200/hr).",
+        "is_billable": true,
+        "rate_override": 200.0,
+        "rate_multiplier": 1.0,
+        "keywords": [
+          "spike",
+          "benchmarking",
+          "FIX 4.4",
+          "packet framing",
+          "low-latency",
+          "protocol evaluation"
+        ],
+        "applies_to_roles": [
+          "Senior Fullstack Engineer",
+          "AI / Data Engineer"
+        ]
+      },
+      {
+        "clause_id": "§8.3",
+        "title": "Unapproved Exploratory Research Exclusion",
+        "text": "Exploratory prototyping or speculative research conducted without written confirmation or ticket sign-off from Client VP of Engineering is non-billable.",
+        "is_billable": false,
+        "rate_override": null,
+        "rate_multiplier": 0.0,
+        "keywords": [
+          "speculative",
+          "unapproved research",
+          "exploratory prototype"
+        ],
+        "applies_to_roles": []
+      }
+    ]
+  },
+  {
+    "contract_id": "CTR-RET-2026",
+    "client_id": "CLI-003",
+    "client_name": "RetailPulse",
+    "billing_model": "RETAINER_OVERAGE",
+    "start_date": "2026-03-01",
+    "end_date": "2027-02-28",
+    "is_active": true,
+    "default_hourly_rate": 180.0,
+    "minimum_increment_minutes": 15,
+    "specialist_rates": {
+      "Principal Solutions Architect": 250.0,
+      "Technical Account Manager": 175.0,
+      "Senior Backend Engineer": 200.0,
+      "Mobile Engineer": 190.0
+    },
+    "retainer_monthly_hours": 80.0,
+    "retainer_monthly_fee": 14400.0,
+    "inclusions_summary": "Architecture advisory, technical executive roadmapping, custom inventory connectors",
+    "exclusions_summary": "30-day post-acceptance defect warranty remediation",
+    "clauses": [
+      {
+        "clause_id": "§2.3",
+        "title": "Enterprise Architecture & Strategic Advisory",
+        "text": "Enterprise architecture advisory sessions, technical executive alignment workshops, and roadmap consulting shall be billed at respective senior staff T&M rates ($250/hr for Principal Architect, $175/hr for Technical Account Manager).",
+        "is_billable": true,
+        "rate_override": null,
+        "rate_multiplier": 1.0,
+        "keywords": [
+          "architecture",
+          "advisory",
+          "executive",
+          "workshop",
+          "roadmap",
+          "event-driven",
+          "redesign",
+          "omnichannel"
+        ],
+        "applies_to_roles": [
+          "Principal Solutions Architect",
+          "Technical Account Manager"
+        ]
+      },
+      {
+        "clause_id": "§5.2",
+        "title": "Custom ERP & Inventory Connectors",
+        "text": "Engineering of real-time inventory webhooks and custom omnichannel connectors billed at standard backend T&M rate ($200/hr).",
+        "is_billable": true,
+        "rate_override": 200.0,
+        "rate_multiplier": 1.0,
+        "keywords": [
+          "inventory",
+          "ERP",
+          "omnichannel",
+          "connector"
+        ],
+        "applies_to_roles": [
+          "Senior Backend Engineer"
+        ]
+      },
+      {
+        "clause_id": "§8.1",
+        "title": "30-Day Defect Warranty Exclusion",
+        "text": "Remediation of defects or bugs reported within 30 days of release acceptance shall be executed at Agency's sole expense and is non-billable.",
+        "is_billable": false,
+        "rate_override": null,
+        "rate_multiplier": 0.0,
+        "keywords": [
+          "warranty",
+          "defect remediation",
+          "bug fix",
+          "post-acceptance",
+          "glitch"
+        ],
+        "applies_to_roles": []
+      }
+    ]
+  },
+  {
+    "contract_id": "CTR-OMN-2026",
+    "client_id": "CLI-004",
+    "client_name": "OmniFlow",
+    "billing_model": "TIME_AND_MATERIALS",
+    "start_date": "2026-01-15",
+    "end_date": "2026-12-15",
+    "is_active": true,
+    "default_hourly_rate": 195.0,
+    "minimum_increment_minutes": 30,
+    "specialist_rates": {
+      "Senior Backend Engineer": 200.0,
+      "Senior Fullstack Engineer": 200.0,
+      "QA Automation Engineer": 150.0
+    },
+    "retainer_monthly_hours": null,
+    "retainer_monthly_fee": null,
+    "inclusions_summary": "Custom third-party API webhooks, bespoke CRM payload transformers, flow automation",
+    "exclusions_summary": "Informal check-ins under 15 minutes",
+    "clauses": [
+      {
+        "clause_id": "§1.3",
+        "title": "Core Workflow Engine Integration",
+        "text": "Development of workflow engines, execution DAGs, and state management services at standard hourly rate ($195/hr).",
+        "is_billable": true,
+        "rate_override": 195.0,
+        "rate_multiplier": 1.0,
+        "keywords": [
+          "workflow",
+          "DAG",
+          "engine",
+          "state machine"
+        ],
+        "applies_to_roles": [
+          "Senior Backend Engineer"
+        ]
+      },
+      {
+        "clause_id": "§5.1",
+        "title": "Custom Third-Party API Webhooks & CRM Transformers",
+        "text": "Custom third-party API webhooks, bespoke CRM payload transformers, and endpoint integrations falling outside the standard baseline connector set are billable at standard backend T&M rate ($200/hr).",
+        "is_billable": true,
+        "rate_override": 200.0,
+        "rate_multiplier": 1.0,
+        "keywords": [
+          "webhook",
+          "Salesforce",
+          "CRM",
+          "payload transformer",
+          "custom integration",
+          "endpoint"
+        ],
+        "applies_to_roles": [
+          "Senior Backend Engineer"
+        ]
+      },
+      {
+        "clause_id": "§8.4",
+        "title": "Informal Micro-Sessions Exclusion",
+        "text": "Informal communications, operational check-ins, or staff guidance sessions of fifteen (15) minutes or less duration shall not be billed.",
+        "is_billable": false,
+        "rate_override": null,
+        "rate_multiplier": 0.0,
+        "keywords": [
+          "informal",
+          "check-in",
+          "micro-session",
+          "under 15 minutes"
+        ],
+        "applies_to_roles": []
+      }
+    ]
+  },
+  {
+    "contract_id": "CTR-CLD-2026",
+    "client_id": "CLI-005",
+    "client_name": "CloudShift",
+    "billing_model": "TIME_AND_MATERIALS",
+    "start_date": "2026-04-01",
+    "end_date": "2027-03-31",
+    "is_active": true,
+    "default_hourly_rate": 225.0,
+    "minimum_increment_minutes": 30,
+    "specialist_rates": {
+      "Senior DevOps Lead": 225.0,
+      "Principal Solutions Architect": 250.0,
+      "Cloud Security Specialist": 240.0
+    },
+    "retainer_monthly_hours": null,
+    "retainer_monthly_fee": null,
+    "inclusions_summary": "Multi-region Kubernetes, scheduled weekend disaster recovery simulations, Terraform CI/CD",
+    "exclusions_summary": "Internal Meridian training and platform onboarding",
+    "clauses": [
+      {
+        "clause_id": "§1.4",
+        "title": "Production Multi-Cloud Infrastructure",
+        "text": "Terraform provisioning, Kubernetes cluster orchestration, and service mesh management billed at DevOps specialist rate ($225/hr).",
+        "is_billable": true,
+        "rate_override": 225.0,
+        "rate_multiplier": 1.0,
+        "keywords": [
+          "Kubernetes",
+          "Terraform",
+          "infrastructure",
+          "service mesh"
+        ],
+        "applies_to_roles": [
+          "Senior DevOps Lead"
+        ]
+      },
+      {
+        "clause_id": "§6.3",
+        "title": "Scheduled Weekend Infrastructure Drills & DR Simulations",
+        "text": "Scheduled weekend infrastructure drills, disaster recovery simulations, and maintenance windows are billable at the DevOps specialist rate ($225/hr), subject to a 2-hour minimum callout.",
+        "is_billable": true,
+        "rate_override": 225.0,
+        "rate_multiplier": 1.0,
+        "keywords": [
+          "disaster recovery",
+          "DR simulation",
+          "weekend drill",
+          "failover runbook",
+          "maintenance window",
+          "Kubernetes failover"
+        ],
+        "applies_to_roles": [
+          "Senior DevOps Lead"
+        ]
+      },
+      {
+        "clause_id": "§8.5",
+        "title": "Internal Training & Onboarding Exclusion",
+        "text": "Meridian internal staff training, platform onboarding, or tooling setup is non-billable to Client.",
+        "is_billable": false,
+        "rate_override": null,
+        "rate_multiplier": 0.0,
+        "keywords": [
+          "internal training",
+          "onboarding",
+          "tooling setup"
+        ],
+        "applies_to_roles": []
+      }
+    ]
+  }
+]

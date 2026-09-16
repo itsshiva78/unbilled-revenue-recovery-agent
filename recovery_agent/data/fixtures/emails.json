@@ -1,0 +1,163 @@
+[
+  {
+    "thread_id": "EML-APX-001",
+    "subject": "URGENT: Remediation needed for audit log encryption",
+    "sender": "aris.thorne@apexhealth.io",
+    "recipients": [
+      "tariq.almansoor@meridiandigital.io",
+      "ops@meridiandigital.io"
+    ],
+    "cc": [
+      "secops@apexhealth.io"
+    ],
+    "timestamp": "2026-08-14T19:42:00",
+    "body_snippet": "Tariq, our compliance auditor flagged CVE-2026-4412 in production audit logs. We need immediate out-of-hours security remediation tonight per SOW §4.2. Can you join the emergency bridge at 20:00?",
+    "estimated_effort_hours": 0.5,
+    "client_id": "CLI-001",
+    "team_member_id": "EMP-009",
+    "is_urgent": true
+  },
+  {
+    "thread_id": "EML-FIN-001",
+    "subject": "Sign-off: FIX 4.4 framing benchmarks & protocol spike",
+    "sender": "kvance@finscale.capital",
+    "recipients": [
+      "marcus.brody@meridiandigital.io"
+    ],
+    "cc": [
+      "zoe.martinez@meridiandigital.io"
+    ],
+    "timestamp": "2026-08-18T16:15:00",
+    "body_snippet": "Marcus, excellent work on FIN-142 today. The low-latency packet framing benchmark results look phenomenal. Please bill this spike per SOW §3.4 as agreed.",
+    "estimated_effort_hours": 0.5,
+    "client_id": "CLI-002",
+    "team_member_id": "EMP-002",
+    "is_urgent": false
+  },
+  {
+    "thread_id": "EML-BIO-001",
+    "subject": "Thank you: BioGen AI capabilities overview",
+    "sender": "r.vance@biogen-health.com",
+    "recipients": [
+      "sarah.chen@meridiandigital.io",
+      "alex.torres@meridiandigital.io"
+    ],
+    "cc": [],
+    "timestamp": "2026-08-19T14:30:00",
+    "body_snippet": "Sarah, Alex - thanks for pitching Meridian's AI capabilities today. We will review internally and let you know if we want to proceed to an RFP or SOW.",
+    "estimated_effort_hours": 0.5,
+    "client_id": null,
+    "team_member_id": "EMP-006",
+    "is_urgent": false
+  },
+  {
+    "thread_id": "EML-RET-001",
+    "subject": "RetailPulse Q4 Omnichannel Architecture Deck Sign-off",
+    "sender": "rsterling@retailpulse.com",
+    "recipients": [
+      "sarah.chen@meridiandigital.io",
+      "alex.torres@meridiandigital.io"
+    ],
+    "cc": [
+      "vpecommerce@retailpulse.com"
+    ],
+    "timestamp": "2026-08-21T17:00:00",
+    "body_snippet": "Sarah and Alex, thank you for the comprehensive 2-hour architecture advisory session today. The event-driven target state is exactly what the board needed. Please send through the T&M invoice details per SOW §2.3.",
+    "estimated_effort_hours": 0.5,
+    "client_id": "CLI-003",
+    "team_member_id": "EMP-001",
+    "is_urgent": false
+  },
+  {
+    "thread_id": "EML-OMN-001",
+    "subject": "OmniFlow: Custom webhook payload requirements",
+    "sender": "bcooper@omniflow.net",
+    "recipients": [
+      "priya.sharma@meridiandigital.io"
+    ],
+    "cc": [
+      "alex.torres@meridiandigital.io"
+    ],
+    "timestamp": "2026-08-24T08:35:00",
+    "body_snippet": "Priya, here is the Salesforce webhook JSON schema for OMNI-89. Please implement the custom endpoint transformer this morning per SOW §5.1.",
+    "estimated_effort_hours": 0.5,
+    "client_id": "CLI-004",
+    "team_member_id": "EMP-005",
+    "is_urgent": true
+  },
+  {
+    "thread_id": "EML-APX-REG-01",
+    "subject": "Apex Health: FHIR Patient Schema Feedback",
+    "sender": "aris.thorne@apexhealth.io",
+    "recipients": [
+      "sarah.chen@meridiandigital.io"
+    ],
+    "cc": [],
+    "timestamp": "2026-08-11T13:20:00",
+    "body_snippet": "Review comments on the FHIR Patient resource extension schema. Looks good to deploy to dev cluster.",
+    "estimated_effort_hours": 0.5,
+    "client_id": "CLI-001",
+    "team_member_id": "EMP-001",
+    "is_urgent": false
+  },
+  {
+    "thread_id": "EML-RET-REG-01",
+    "subject": "RetailPulse: Weekly UI Design Asset Approvals",
+    "sender": "rsterling@retailpulse.com",
+    "recipients": [
+      "elena.rostova@meridiandigital.io"
+    ],
+    "cc": [],
+    "timestamp": "2026-08-13T16:00:00",
+    "body_snippet": "All mobile navigation tokens and hero banner variants are approved. Ready for frontend handoff.",
+    "estimated_effort_hours": 0.5,
+    "client_id": "CLI-003",
+    "team_member_id": "EMP-003",
+    "is_urgent": false
+  },
+  {
+    "thread_id": "EML-CLD-REG-01",
+    "subject": "CloudShift: Terraform AWS IAM Role Permissions",
+    "sender": "nklein@cloudshift.tech",
+    "recipients": [
+      "david.kalu@meridiandigital.io"
+    ],
+    "cc": [],
+    "timestamp": "2026-08-17T15:45:00",
+    "body_snippet": "Confirmed the least-privilege IAM policy for Kubernetes CSI driver. Merged PR #44.",
+    "estimated_effort_hours": 0.5,
+    "client_id": "CLI-005",
+    "team_member_id": "EMP-004",
+    "is_urgent": false
+  },
+  {
+    "thread_id": "EML-OMN-REG-01",
+    "subject": "OmniFlow: Sprint 14 Retrospective Notes",
+    "sender": "bcooper@omniflow.net",
+    "recipients": [
+      "alex.torres@meridiandigital.io"
+    ],
+    "cc": [],
+    "timestamp": "2026-08-20T10:10:00",
+    "body_snippet": "Thanks for sharing the sprint velocity metrics. On track for the September release.",
+    "estimated_effort_hours": 0.5,
+    "client_id": "CLI-004",
+    "team_member_id": "EMP-006",
+    "is_urgent": false
+  },
+  {
+    "thread_id": "EML-FIN-REG-01",
+    "subject": "FinScale: WebSocket Order Book Staging Feedback",
+    "sender": "kvance@finscale.capital",
+    "recipients": [
+      "chloe.dubois@meridiandigital.io"
+    ],
+    "cc": [],
+    "timestamp": "2026-08-26T14:50:00",
+    "body_snippet": "The DOM rendering throttling is working smoothly under 500 msgs/sec simulated load.",
+    "estimated_effort_hours": 0.5,
+    "client_id": "CLI-002",
+    "team_member_id": "EMP-007",
+    "is_urgent": false
+  }
+]

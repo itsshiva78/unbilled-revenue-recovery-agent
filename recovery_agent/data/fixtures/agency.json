@@ -1,0 +1,172 @@
+{
+  "agency_id": "MD-001",
+  "name": "Meridian Digital Inc.",
+  "headcount": 50,
+  "domains": [
+    "meridiandigital.io"
+  ],
+  "offices": [
+    "New York",
+    "London"
+  ],
+  "contact_email": "ops@meridiandigital.io",
+  "default_currency": "USD",
+  "rate_cards": [
+    {
+      "role": "Principal Solutions Architect",
+      "hourly_rate": 250.0,
+      "description": "Enterprise cloud architecture, technical roadmaps, executive alignment",
+      "specialist_rate": 275.0
+    },
+    {
+      "role": "Cloud Security Specialist",
+      "hourly_rate": 240.0,
+      "description": "HIPAA/SOC2 compliance, infrastructure hardening, incident mitigation",
+      "specialist_rate": 260.0
+    },
+    {
+      "role": "Senior DevOps Lead",
+      "hourly_rate": 225.0,
+      "description": "Kubernetes orchestration, multi-region CI/CD, disaster recovery runbooks",
+      "specialist_rate": 250.0
+    },
+    {
+      "role": "AI / Data Engineer",
+      "hourly_rate": 210.0,
+      "description": "LLM agent integration, vector search, streaming data pipelines",
+      "specialist_rate": 230.0
+    },
+    {
+      "role": "Senior Fullstack Engineer",
+      "hourly_rate": 200.0,
+      "description": "High-throughput APIs, protocol gateways, real-time UI/backend systems",
+      "specialist_rate": 225.0
+    },
+    {
+      "role": "Senior Backend Engineer",
+      "hourly_rate": 200.0,
+      "description": "Distributed services, custom API webhooks, database optimization",
+      "specialist_rate": 220.0
+    },
+    {
+      "role": "Mobile Engineer",
+      "hourly_rate": 190.0,
+      "description": "iOS/Android native and cross-platform mobile client engineering",
+      "specialist_rate": 210.0
+    },
+    {
+      "role": "Lead Product Designer",
+      "hourly_rate": 185.0,
+      "description": "Design systems, user experience journeys, interactive prototypes",
+      "specialist_rate": 200.0
+    },
+    {
+      "role": "Technical Account Manager",
+      "hourly_rate": 175.0,
+      "description": "Technical program governance, milestone tracking, client executive delivery",
+      "specialist_rate": 190.0
+    },
+    {
+      "role": "Frontend Engineer",
+      "hourly_rate": 165.0,
+      "description": "Modern React/Next.js interfaces, state machines, responsive design",
+      "specialist_rate": 180.0
+    },
+    {
+      "role": "Agile Project Manager",
+      "hourly_rate": 160.0,
+      "description": "Sprint ceremonies, backlog grooming, cross-functional delivery coordination",
+      "specialist_rate": 175.0
+    },
+    {
+      "role": "QA Automation Engineer",
+      "hourly_rate": 150.0,
+      "description": "End-to-end integration test suites, load testing, regression harnesses",
+      "specialist_rate": 165.0
+    }
+  ],
+  "clients": [
+    {
+      "client_id": "CLI-001",
+      "name": "Apex Health",
+      "industry": "Healthcare SaaS (HIPAA Cloud Infrastructure)",
+      "primary_contact_name": "Dr. Aris Thorne",
+      "primary_contact_email": "aris.thorne@apexhealth.io",
+      "billing_domain": "apexhealth.io",
+      "allowed_domains": [
+        "apexhealth.io",
+        "apex-health.com"
+      ],
+      "default_rate": 200.0,
+      "minimum_increment_minutes": 30,
+      "notes": "Core HIPAA portal dev, infrastructure security, urgent compliance triage"
+    },
+    {
+      "client_id": "CLI-002",
+      "name": "FinScale",
+      "industry": "FinTech Trading Platform & FIX Gateway",
+      "primary_contact_name": "Kieran Vance",
+      "primary_contact_email": "kvance@finscale.capital",
+      "billing_domain": "finscale.capital",
+      "allowed_domains": [
+        "finscale.capital",
+        "finscale-internal.io"
+      ],
+      "default_rate": 200.0,
+      "minimum_increment_minutes": 15,
+      "notes": "FIX protocol integration, ultra-low latency gateway spikes, exchange feed parsing"
+    },
+    {
+      "client_id": "CLI-003",
+      "name": "RetailPulse",
+      "industry": "Omnichannel E-commerce & Inventory",
+      "primary_contact_name": "Rachel Sterling",
+      "primary_contact_email": "rsterling@retailpulse.com",
+      "billing_domain": "retailpulse.com",
+      "allowed_domains": [
+        "retailpulse.com"
+      ],
+      "default_rate": 180.0,
+      "minimum_increment_minutes": 15,
+      "notes": "Retainer plus T&M overage for architecture advisory and custom inventory connectors"
+    },
+    {
+      "client_id": "CLI-004",
+      "name": "OmniFlow",
+      "industry": "Enterprise Workflow & CRM Automation",
+      "primary_contact_name": "Bradley Cooper",
+      "primary_contact_email": "bcooper@omniflow.net",
+      "billing_domain": "omniflow.net",
+      "allowed_domains": [
+        "omniflow.net",
+        "omniflow-corp.com"
+      ],
+      "default_rate": 195.0,
+      "minimum_increment_minutes": 30,
+      "notes": "Custom third-party API webhook ingestion, Salesforce CRM transformers"
+    },
+    {
+      "client_id": "CLI-005",
+      "name": "CloudShift",
+      "industry": "Multi-Cloud & Kubernetes Infrastructure",
+      "primary_contact_name": "Naomi Klein",
+      "primary_contact_email": "nklein@cloudshift.tech",
+      "billing_domain": "cloudshift.tech",
+      "allowed_domains": [
+        "cloudshift.tech"
+      ],
+      "default_rate": 225.0,
+      "minimum_increment_minutes": 30,
+      "notes": "Multi-region Kubernetes clusters, scheduled weekend disaster recovery drills"
+    }
+  ],
+  "settings": {
+    "minimum_gap_threshold_hours": 0.5,
+    "confidence_flagged_threshold": 0.85,
+    "confidence_review_threshold": 0.60,
+    "simulated_timeframe_start": "2026-08-10",
+    "simulated_timeframe_end": "2026-08-30",
+    "default_working_hours": "09:00-18:00",
+    "timezone": "America/New_York"
+  }
+}
